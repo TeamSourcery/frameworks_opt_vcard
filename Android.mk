@@ -15,6 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
+# 2.3
 LOCAL_SDK_VERSION := 11
 
 LOCAL_MODULE := com.android.vcard

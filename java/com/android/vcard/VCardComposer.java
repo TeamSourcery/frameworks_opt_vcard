@@ -545,7 +545,7 @@ public class VCardComposer {
                     String key = contentValues.getAsString(Data.MIMETYPE);
                     if (StructuredName.CONTENT_ITEM_TYPE.equals(key)) {
                         fixupStructuredNameDisplayName(contentValues);
-                    }
+ 	            }
                     if (key != null) {
                         List<ContentValues> contentValuesList =
                                 contentValuesListMap.get(key);
